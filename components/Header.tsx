@@ -22,12 +22,12 @@ function Header() {
     }
   }, [])
 
-  
+ 
   return (
     <header className={`${isScrolled && 'bg-[#141414]'}`}>
         <div className="flex items-center space-x-2 md:space-x-10">
             <img
-            src="https://rb.gy/ulxxee"
+            src="https://fontmeme.com/permalink/230207/5cff4b7fecd9021f0b04674d015aa0e3.png"
             width={100}
             height={100}
             className="cursor-pointer object-contain"
