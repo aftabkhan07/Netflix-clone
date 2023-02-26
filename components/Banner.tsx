@@ -53,3 +53,5 @@ function Banner( {netflixOriginals}: Props ) {
 }
 
 export default Banner
+
+

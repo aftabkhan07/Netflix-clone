@@ -5,6 +5,7 @@ import Row from '../components/Row'
 import { Movie } from '../typings'
 import requests from '../utils/requests'
 
+// am back 26_02_22
 interface Props {
   netflixOriginals: Movie[]
   trendingNow: Movie[]
