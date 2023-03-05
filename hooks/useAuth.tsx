@@ -14,6 +14,7 @@ interface AuthProviderProps{
   children: React.ReactNode
 }
 
+
 export const AuthProvider = ({children}: AuthProviderProps) => {
   const [loading, setLoading] = useState(false)
   const [user, setUser] = useState<User | null>(null)
