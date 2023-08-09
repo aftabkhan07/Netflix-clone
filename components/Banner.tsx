@@ -6,6 +6,7 @@ import { baseUrl } from '../constants/movie'
 import { Movie } from '../typings'
 import {FaPlay} from 'react-icons/fa'
 import { InformationCircleIcon } from '@heroicons/react/24/solid'
+import { DiffieHellmanGroup } from 'crypto'
 
 interface Props {
   netflixOriginals: Movie[]
@@ -17,7 +18,6 @@ function Banner( {netflixOriginals}: Props ) {
   useEffect(()=>{
     setMovie(netflixOriginals[Math.floor(Math.random()* netflixOriginals.length)])
   },[netflixOriginals])
-
 
   return (
     <div className='flex flex-col space-y-2 py-16 md:space-y-4 lg:h-[64vh] lg:justify-end lg:pb-12'>
