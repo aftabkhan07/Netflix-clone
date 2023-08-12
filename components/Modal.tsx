@@ -92,8 +92,8 @@ function Modal() {
         </div>
 
         <div className="flex space-x-16 rounded-b-md bg-[#181818] px-10 py-8">
-          <div className="space-y-6 text-lg">
-            <div className="flex items-center space-x-2 text-sm">
+          <div className="space-y-3 text-lg md:space-y-6">
+            <div className="flex items-center space-x-2 text-xs md:text-sm">
               <p className="font-semibold text-green-400">
                 {movie!.vote_average * 10}% Match
               </p>
@@ -105,9 +105,9 @@ function Modal() {
               </div>
             </div>
 
-            <div className="flex flex-col gap-x-10 gap-y-4 font-light md:flex-row">
+            <div className="flex flex-col gap-x-10 gap-y-4 font-light text-xs md:text-xl md:flex-row">
               <p className="w-5/6">{movie?.overview}</p>
-              <div className="flex flex-col space-y-3 text-sm">
+              <div className="flex flex-col space-y-3 text-xs md:text-sm">
                 <div>
                   <span className="text-[gray]">Genres: </span>
                   {genres.map((genre) => genre.name).join(", ")}
