@@ -27,7 +27,7 @@ function Plans({ products }: Props) {
   return (
     <div>
       <Head>
-        <title>Aftaflix</title>
+        <title>NETFLIX</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
