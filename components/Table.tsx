@@ -21,7 +21,7 @@ function Table({ products, selectedPlan }: Props) {
                   : 'text-[gray]'
               }`}
             >
-              AED{product.prices[0].unit_amount! / 100}
+            {product.prices[0].unit_amount! / 100}Rs
             </td>
           ))}
         </tr>
