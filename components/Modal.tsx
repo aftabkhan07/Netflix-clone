@@ -95,7 +95,7 @@ function Modal() {
           <div className="space-y-3 text-lg md:space-y-6">
             <div className="flex items-center space-x-2 text-xs md:text-sm">
               <p className="font-semibold text-green-400">
-                {movie!.vote_average * 10}% Match
+                {(movie!.vote_average * 10).toFixed(1)}% Match
               </p>
               <p className="font-light">
                 {movie?.release_date || movie?.first_air_date}
