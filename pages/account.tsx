@@ -19,7 +19,7 @@ function Account({ products }: Props) {
   return (
     <div>
       <Head>
-        <title>Account Settings - Netflix</title>
+        <title>Account Settings - Aftaflix</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
